@@ -67,6 +67,7 @@ div.relat{
   font-family: Helvetica;
   padding: 2px;
   margin-bottom: 15px;
+  overflow: scroll;
 }
 
 
@@ -77,8 +78,13 @@ p.relative{
   margin-right: auto;
   margin-left: auto;
   padding: 3px;
-}
+  overflow: auto;
 
+}
+section{
+  display: block;
+
+}
 
 .row {
   width: 100%;
