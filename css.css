@@ -10,26 +10,58 @@ h1{
 
 }
 
-div.absolute{
-  position: absolute !important;
+div.absolute1{
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding: 3px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 30%;
+  color: purple;
+  margin-bottom: 15px;
+  background-color: #FB607F;
+  color: black; 
+}
+
+div.absolute2{
+  position: absolute;
   right: 0;
   top: 0;
   padding: 3px;
-  border: 1px solid black;
-  background-color: yellow;
-  width: 25%;
-  height: 25px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 30%;
   text-align: center;
   color: purple;
-  margin-bottom: 10px !important;
+  margin-bottom: 15px;
+  background-color:darkred;
+  color: white; 
 }
+
+div.absolute3{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 3px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 30%;
+  text-align: center;
+  color: purple;
+  margin-bottom: 15px;
+  background-color: #F0E68C;
+  color: black; 
+}
+
 
 div.relat{
   position: relative;
   background-color: gray;
   border: 1px solid black;
   width: 95%;
-  height: 180px;
+  height: 160px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
@@ -37,13 +69,16 @@ div.relat{
   margin-bottom: 15px;
 }
 
+
 p.relative{
   position:relative;
-  top: 15px;
+  top: 20px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding: 3px;
 }
+
 
 .row {
   width: 100%;
@@ -56,6 +91,7 @@ p.relative{
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
   {
     float: left;
+
   }
   .col-lg-1{ 
     width: 8.33%;
